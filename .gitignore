@@ -1,0 +1,14 @@
+# Ignore database files and related artifacts
+inventory.db  # Specific database file to ignore
+*.db          # Ignore all files with .db extension
+*db.*         # Ignore all files with 'db' in their name and any extension
+
+# Ignore environment-related files
+.env          # Environment variable files
+venv/          # Environment directory
+.venv/          # Environment directory
+vevn
+
+# Ignore Python cache and compiled files
+__pycache__/  # Python bytecode cache directory
+*.pyc         # Compiled Python files
