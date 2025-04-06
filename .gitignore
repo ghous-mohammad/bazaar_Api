@@ -8,3 +8,5 @@ vevn
 
 __pycache__/  
 *.pyc        
+src/__pycache__/
+**/__pycache__/
